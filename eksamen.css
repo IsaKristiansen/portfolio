@@ -1,0 +1,144 @@
+body {
+    max-width:1000%;
+    background-color: #4C3DFA; 
+    font-size: 50px;
+
+    /* font-family: Helvetica Neue bold; */
+
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu { 
+    display: flex;
+    justify-content:flex-end; 
+    text-align: end;
+    flex-direction: column;
+    
+}
+.item1 { grid-area: header; }
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "header header header header header header"
+    "footer footer footer footer footer footer";
+  }
+  
+.grid-container div {
+    background-color:#F9BF40;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+}
+
+
+.grid-container2 div {
+    background-color:#F5A2B9;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+.flex-container {
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.grid-container3 div {
+    background-color:#E54979;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+.flex-container {
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.grid-container4 div {
+    background-color:#F9BF40;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+.flex-container {
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.grid-container5 div {
+    background-color:#F5A2B9;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+.flex-container {
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+}
+.grid-container6  div {
+    background-color:#E54979;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+.flex-container {
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.test {
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica bold;
+    font-size: 1.5rem;
+    
+}
+
+.grid-container7 div {
+    background-color:#F9BF40;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+.flex-container {
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+
+}
+
+.container {
+    width: 100px;
+}
+.forimg { 
+    width: 100%; 
+
+}
+
+.center{
+    width: 70%;
+
+}
+
